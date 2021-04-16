@@ -1,19 +1,21 @@
 <template>
   <div class="home">
-    <div>
+    <!-- <Header label1="Asian" label2="American" label3="Studies"/> -->
+    <Header label1="Asian American" label2="Studies"/>
+    <div class="times-text">
+      <p>Key question: What is the impact of Asian Americans on American culture and society?</p>
     </div>
-    <HomePage />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HomePage from '@/components/HomePage.vue'
+import Header from '../components/Header.vue'
 
 export default {
   name: 'Home',
   components: {
-    HomePage
+    Header
   }
 }
 </script>

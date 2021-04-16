@@ -1,11 +1,13 @@
 <template>
   <div>
-    <h1 class="overlay-text">Works <br><br><br><br><br> Cited</h1>
-    <img alt="Header" class="object-cover h-96 w-full" src="../assets/header.png">
+    <img alt="Header" class="cover-img object-cover w-full" src="../assets/header.png">
+    <div class="website-name">
+      <h1>Asian American Impact Project</h1>
+    </div>
     <div class="routers">
-      <router-link to="/" class="text-black">Home</router-link> |
-      <router-link to="/about">About</router-link> |
-      <router-link to="/citations">Works Cited Page</router-link>
+      <router-link to="/" class="text-black">Home</router-link> <span></span>
+      <router-link to="/about">About</router-link> <span></span>
+      <router-link to="/citations">Works Cited</router-link>
     </div>
   </div>
 </template>
@@ -22,21 +24,46 @@
 
 <style scoped>
 
-.overlay-text {
-  @apply text-xl font-bold text-center object-top text-white;
+.cover-img {
+  filter: brightness(58%);
+  opacity: 0.9;
+  height: 29rem;
+}
+
+.website-name {
+  @apply text-lg font-extrabold text-center text-white;
+  font-size: 25px;
   position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 150px;
+  top: 75px;
+  left: 25%;
+  transform: translate(-80%, -100%);
+
+  background: crimson;
+  border-radius: 4px;
+  text-decoration: none;
+  padding: 10px;
 }
 
 .routers {
-  @apply text-lg font-bold text-center object-right-top text-white;
+  @apply text-lg font-bold text-center text-white;
   position: absolute;
-  top: 8%;
-  left: 80%;
-  transform: translate(-50%, -100%);
+  /* top: 10%; */
+  top: 60px;
+  left: 79%;
+  transform: translate(-30%, -100%);
 }
 
+.routers a {
+  font-weight: bold;
+  color: crimson;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 4px;
+  background: white;
+}
+
+.routers a.router-link-exact-active {
+  color: white;
+  background: crimson;
+}
 </style>

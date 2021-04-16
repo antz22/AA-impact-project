@@ -1,29 +1,34 @@
 <template>
   <div>
+    <!-- <Header label1="Works" label2="Cited" /> -->
+    <Header label1="Works Cited"/>
     <div id="cited">
+      <div class="container mx-auto max-w-7xl">
+        <h1 class="text-5xl font-extrabold times-text pb-10">Sources</h1>
+        <hr>
+        <div class="text-lg leading-loose text-black times-text p-10">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis atque unde ducimus nisi quae, optio hic id, alias sit odit, numquam laudantium? Doloremque laboriosam distinctio neque, sit assumenda expedita ipsum?</p>
+        </div>
+      </div>
     </div>
-    <WorksCitedComp />
   </div>
 </template>
 
 <script>
-import WorksCitedComp from '@/components/WorksCitedComp.vue'
+import Header from '../components/Header.vue'
 
 export default {
   name: 'Boi',
   components: {
-    WorksCitedComp
+    Header
   }
 }
 </script>
 
 <style scoped>
 
-.overlay-text {
-  @apply text-xl;
-  position: absolute;
-  text-align: center;
-  font-size: 30px;
+#cited {
+  
 }
 
 </style>
