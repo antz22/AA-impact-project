@@ -1,7 +1,7 @@
 <template>
   <div>
     <NavBar />
-    <div id="nav" class="container mx-auto">
+    <div id="nav" class="container mx-auto p-7">
       <!-- <router-link to="/" class="text-black">Home</router-link> |
       <router-link to="/about">About</router-link> |
       <router-link to="/citations">Works Cited Page</router-link> -->
@@ -25,26 +25,15 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+div {
+  font-family: Cambria, Georgia, Times, 'Times New Roman', serif, Arial, Helvetica;
+  /* font-family: "Open Sans"; */
+  /* font-family: Arial, sans-serif; */
+  
   text-align: center;
-  color: #2c3e50;
 }
 
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #4077aa;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
 
 .times-text {
   font-family: Times New Roman;

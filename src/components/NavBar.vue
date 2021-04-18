@@ -27,18 +27,17 @@
 .cover-img {
   filter: brightness(58%);
   opacity: 0.9;
-  height: 29rem;
+  height: 25rem;
 }
 
 .website-name {
-  @apply text-lg font-extrabold text-center text-white;
+  @apply bg-red-800 text-lg font-bold text-center text-white;
   font-size: 25px;
   position: absolute;
   top: 75px;
-  left: 25%;
+  left: 340px;
   transform: translate(-80%, -100%);
 
-  background: crimson;
   border-radius: 4px;
   text-decoration: none;
   padding: 10px;
@@ -49,13 +48,13 @@
   position: absolute;
   /* top: 10%; */
   top: 60px;
-  left: 79%;
-  transform: translate(-30%, -100%);
+  right: 33px;
+  transform: translate(-0%, -100%);
 }
 
 .routers a {
+  @apply text-red-800;
   font-weight: bold;
-  color: crimson;
   text-decoration: none;
   padding: 10px;
   border-radius: 4px;
@@ -63,7 +62,7 @@
 }
 
 .routers a.router-link-exact-active {
+  @apply bg-red-800;
   color: white;
-  background: crimson;
 }
 </style>

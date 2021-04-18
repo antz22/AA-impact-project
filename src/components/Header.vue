@@ -41,7 +41,7 @@ export default {
 .website-container {
   @apply text-xl font-bold text-center object-top text-white;
   position: absolute;
-  top: 260px; 
+  top: 235px; 
   left: 50%;
   transform: translate(-50%, -50%); 
   font-size: 80px;
@@ -55,7 +55,7 @@ export default {
   /* padding: 20px; */
   /* line-height: 25px; */
 
-  @apply bg-red-800  bg-opacity-80 pt-5 pb-12 pl-20 pr-20;
+  @apply bg-red-900  bg-opacity-80 pt-2 pb-16 pl-20 pr-20;
   box-sizing: border-box;
   width: 50rem;
   border: 5px solid; 
