@@ -5,9 +5,9 @@
       <h1>Asian American Impact Project</h1>
     </div>
     <div class="routers">
-      <router-link to="/" class="text-black">Home</router-link> <span></span>
-      <router-link to="/about">About</router-link> <span></span>
-      <router-link to="/citations">Works Cited</router-link>
+      <router-link to="/"><span>Home</span></router-link> <span></span>
+      <router-link to="/about"><span>About</span></router-link> <span></span>
+      <router-link to="/citations"><span>Works Cited</span></router-link>
     </div>
   </div>
 </template>
@@ -25,9 +25,40 @@
 <style scoped>
 
 .cover-img {
-  filter: brightness(58%);
+  filter: brightness(50%);
   opacity: 0.9;
   height: 25rem;
+}
+
+
+.routers {
+  @apply text-xl font-bold text-center text-white;
+  position: absolute;
+  top: 60px;
+  right: 33px;
+  transform: translate(-0%, -100%);
+}
+
+.routers a {
+  @apply font-extrabold;
+  /* @apply text-red-800 transition duration-100; */
+  /* font-weight: bold; */
+  text-decoration: none;
+  padding: 10px;
+  /* border-radius: 4px; */
+  /* background: white; */
+}
+
+.routers a > span:hover {
+  text-decoration: underline;
+  /* padding-bottom: 0.01px; */
+  /* border-bottom: 2.3px solid #fff */
+}
+
+
+.routers a.router-link-exact-active {
+  @apply bg-red-800 rounded;
+  color: white;
 }
 
 .website-name {
@@ -41,28 +72,5 @@
   border-radius: 4px;
   text-decoration: none;
   padding: 10px;
-}
-
-.routers {
-  @apply text-lg font-bold text-center text-white;
-  position: absolute;
-  /* top: 10%; */
-  top: 60px;
-  right: 33px;
-  transform: translate(-0%, -100%);
-}
-
-.routers a {
-  @apply text-red-800;
-  font-weight: bold;
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 4px;
-  background: white;
-}
-
-.routers a.router-link-exact-active {
-  @apply bg-red-800;
-  color: white;
 }
 </style>
