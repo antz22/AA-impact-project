@@ -6,7 +6,7 @@
       <p class="text-3xl">Key question: What is the impact of Asian Americans on American culture and society?</p>
     </div>
     <div class="h-48"> </div>
-    <div id="pichai" class="container mx-auto p-4 flex w-screen" data-aos="fade-up">
+    <div id="pichai" class="p-4 flex w-full " data-aos="fade-up" data-aos-duration="1300">
       <img alt="Sundar Pichai" class="float-right max-w-2xl p-8 align-middle h-full" src="../assets/pichai.jpg">
       <div class="text p-5">
         <p>This is Sundary Pichai, one of the most influential Asian Americans in American business and technology.</p>
@@ -33,14 +33,14 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 
 /* .home {
   background-color: rgb(39, 48, 56);
 } */
 
 #pichai {
-  background-color: rgb(39, 48, 56);
+  background-color: rgb(50, 97, 138);
 
 }
 
@@ -48,6 +48,15 @@ export default {
   @apply leading-loose p-3 text-white;
   font-size: 18px;
   
+}
+
+p {
+  /* @apply text-left pl-32 text-xl; */
+
+}
+
+.home {
+  @apply mb-16;
 }
 
 </style>

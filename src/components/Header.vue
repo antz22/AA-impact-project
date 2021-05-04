@@ -39,7 +39,7 @@ export default {
 }
 
 .website-container {
-  @apply text-xl font-bold text-center object-top text-white;
+  @apply text-xl font-bold text-center text-white;
   position: absolute;
   top: 235px; 
   left: 50%;

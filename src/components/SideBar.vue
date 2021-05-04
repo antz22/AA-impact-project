@@ -8,6 +8,17 @@
           <slot></slot>
         </div>
       </transition>
+      <!-- <div v-if="isPanelOpen">
+        <div id="webquest" data-aos="fade-up">
+          <ol style="list-style-type:decimal">
+            <li>What is the US desktop browser market share of Google Chrome? Approximately what percentage of US residents use the Internet? Consider Chrome’s impact on Americans and American technology based on these statistics.</li>
+            <li>After reading through Sundar Pichai’s work on Chrome, how do you think his contributions to web technology have impacted your web browsing experience)? What might have been different with your experience today if Chrome (and the Chromium project) did not exist?</li>
+            <li>How has Sundar’s humble upbringing influenced his approach to managing and expanding Android?</li>
+            <li>In what ways does Sundar Pichai match/support the ‘model minority’ myth? In what ways does he break from it? </li>
+            <li>Through Sundar Pichai’s CEO position, how has he influenced others both in the U.S. and around the world?</li>
+          </ol>
+        </div>
+      </div> -->
   </div>
 </template>
 
@@ -76,6 +87,20 @@ export default {
   top: 50%;
   transform: translate(0%, 50%);
 
+}
+
+#webquest {
+  @apply text-left rounded-md border-gray-50 border-2 text-gray-100; 
+  background-color: #7d3535;
+  position: absolute;
+  font-size: 1.5rem;
+  right: 09%;
+  top: 10%;
+  width: 60vw;
+}
+
+#webquest > ol > li {
+  @apply p-4 ml-12 mt-6 mb-6;
 }
 
 </style>

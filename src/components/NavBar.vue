@@ -10,7 +10,7 @@
     <div class="routers">
       <router-link to="/"><span>Home</span></router-link> <span></span>
       <router-link to="/citations"><span>Works Cited</span></router-link>
-      <span>Web Quest →</span>
+      <span class="pl-2">Web Quest →</span>
       <span class="pl-12"></span>
     </div>
     <div id="sidebar">
