@@ -7,10 +7,10 @@
 
 
 
-    <div class="routers">
+    <div class="routers md:visible sm:invisible">
       <router-link to="/"><span>Home</span></router-link> <span></span>
       <router-link to="/citations"><span>Works Cited</span></router-link>
-      <span class="pl-2">Web Quest →</span>
+      <span class="pl-2">Pichai →</span>
       <span class="pl-12"></span>
     </div>
     <div id="sidebar">
@@ -28,6 +28,14 @@
           <li>
             <router-link to="/ceo"><p class="inline-block">Tech CEO</p><img src="../assets/ceo.svg"></router-link>
           </li>
+          <div class="md:invisible sm:visible">
+            <li>
+              <router-link to="/"><p class="inline-block">Home</p></router-link>
+            </li>
+            <li>
+              <router-link to="/cited"><p class="inline-block">Works Cited</p></router-link>
+            </li>
+          </div>
         </ul>
       </SideBar>
     </div>
@@ -98,11 +106,12 @@ export default {
 }
 
 .website-name {
-  @apply bg-red-800 text-lg font-bold text-center text-white;
+  @apply bg-red-800 text-lg font-bold text-center text-white md:w-auto sm:w-3/5;
   font-size: 25px;
   position: absolute;
-  top: 75px;
+  top: 70px;
   left: 340px;
+  /* left: 24.3%; */
   transform: translate(-80%, -100%);
 
   border-radius: 4px;
@@ -123,13 +132,15 @@ export default {
   transform: translate(0%, 0%); */
 }
 
-ul.sidebar-panel-nav {
+ul.sidebar-panel-nav,
+ul.sidebar-panel-nav > div {
   list-style-type: none;
   padding-top: 2em;
   text-align: left;
 }
 
-ul.sidebar-panel-nav > li > a {
+ul.sidebar-panel-nav > li > a,
+ul.sidebar-panel-nav > div > li > a {
   @apply text-gray-400 hover:text-white transition duration-300;
   text-decoration: none;
   font-size: 1.8rem;

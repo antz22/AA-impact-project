@@ -1,27 +1,31 @@
 <template>
   <div class="home">
     <Header label1="Tech CEO" />
-    <div id="p1">
-      <p>Due to Google’s large role in how society functions today, Sundar Pichai has a great reach on society with his position as the CEO</p>
-      <p>For example, Google played a large role in helping the nation with the pandemic, and Sundar and Google made the decision to converse with the US gov’s COVID task force (conveys his BIG impact, as he directly spoke to them himself)</p>
-      <p>They also decided to focus on areas where their expertise could help: what can Google do to provide more information, and Verily (an Alphabet scientific research company) was working on providing more testing (specifically drive-thru testing to first responders)</p>
-      <p>Sundar says “My view on this is at a time of a global pandemic, we want to do everything we can to help the US government succeed…”</p>
-      <p>These actions impact the world in a crisis such as COVID-19 to a great extent, demonstrating Sundar’s reach as the CEO of a high profile company</p>
-      <p>Google and Verily work on healthcare also, again impacting society. Sundar’s position has also impacted education during the pandemic, as his company has worked on things such as donating chromebooks. His position impacts the environment as he is in charge of Google’s work on sustainable products and carbon emissions, and he has stated that Google is working on becoming completely carbon free by 2030, 24/7 everywhere they operate. Google is currently carbon neutral.</p>
-
-    </div>
-    <div id="p2">
-      <p>Sundar has broken barriers, or the “bamboo ceiling,” as it is frequently called, in terms of Asian immigrants and Asian Americans in executive positions, yet it is still very difficult for this to happen - the fact that the company he is heading is Google creates tremendous hope for future Asian Americans who have big aspirations</p>
-      <p>According to Karthik Ramakrishnan, associate dean of public policy at UC Riverside, and Jennifer Lee, professor of sociology at Columbia University,  “[Asians] may be hired in large numbers by tech companies, but Asian Americans are the group least likely to be promoted into managerial and executive ranks. Whites are twice as likely as Asians to hold executive positions.” </p>
-      <p>This conveys how the model minority myth can be perpetuated and how many people can feel that Asians do not face problems in the business world, whereas the truth is that the problem is deeper - it arises when looking at the ranks of the Asians hired in tech companies</p>
-
-    </div>
-    <div id="p3">
-      <p>Many companies argue that first generation Asian immigrants, who migrated to America, may generally rank high in “hard skill,” they lack “soft skill,” AKA ability to communicate effectively due to barriers such as an accent or less proficient English → however the authors of the LA Times piece argue that Asians are not given opportunities to present their ability to communicate effectively → 51% of Asians have led a meeting whereas 68% of whites have → demonstrated through Sundar Pichai as he has an accent yet he is clearly able to communicate well (and he is an Indian Immigrant) (stats apply to both immigrants and American born Asians)</p>
-      <p>The authors also point out that Asian Americans (born in America) are still faced with prejudice in the workplace in terms of executive positions, demonstrating that regardless of language barriers, etc., Asians are still discriminated against</p>
-    </div>
-    <div id="p4">
-
+    <div class="space-y-10">
+      <div id="p1">
+        <p>Though Sundar has contributed greatly to American society through innovations such as Chrome and through his work with Android, the sheer position he holds is very impactful to the Asian American community. Being the CEO of Google, Pichai provides hope for the Asian American community that faces discrimination in leadership positions. </p>
+      </div>
+      <div id="p2">
+        <p>According to Karthik Ramakrishnan, associate dean of public policy at UC Riverside, and Jennifer Lee, professor of sociology at Columbia University,  “[Asians] may be hired in large numbers by tech companies, but Asian Americans are the group least likely to be promoted into managerial and executive ranks. Whites are twice as likely as Asians to hold executive positions.” Since the discrimination Asian Americans face lies in obtaining executive jobs, the “model minority” myth is able to thrive: the generalization is that many Asians get jobs, so they do not face any discrimination, when in reality the prejudice they face is beneath the surface.</p>
+      </div>
+      <div id="p3">
+        <p>Sundar Pichai’s rise to the top of Google and Alphabet therefore counters the general trend of injustice that plagues his community. He has consistently shown support and worked on supporting legislation that promotes the place of immigrants in the US, an example being his support for the DREAMers Act in Congress, a bill which if passed would have allowed undocumented immigrants brought to the US as youth legal status. Vocalizations of solidarity from Pichai have impact in society due to his position. </p>
+      </div>
+      <div id="p4">
+        <p>It is a common argument that Asian Americans, especially immigrants, lack the ability to effectively communicate to their counterparts in the workplace, due to accents, cultural barriers, etc. However, many times Asian Americans are not presented with the same opportunities as others to display their abilities. For example, 51% of Asians had led a meeting in the workplace while 68% of white people had (citation). Leading a meeting is an essential part of being considered for higher positions. </p>
+      </div>
+      <div>
+        <p>Pichai once again provides hope for Asian Americans, delegitimizing the argument against the minority presented above, as he himself has an accent and is clearly still able to communicate efficiently and effectively. His CEO position provides hope to other immigrants with barriers between them and America’s majority white workforce, showing them that they can make an impact regardless of matters such as an accent. </p>
+      </div>
+      <div>
+        <p>His unprecedented progress in the executive world as an Asian American has also greatly influenced the ambitions of Asian Americans, as you can see in this fun introduction to one of his interviews at the Google headquarters.</p>
+        <p id="caption">~Watch the first minute or so, it's pretty happy :) ~</p>
+        <iframe class="mx-auto pt-10" width="500" height="400" src="https://www.youtube.com/embed/H_8UBv5bZo0">
+          </iframe> 
+      </div>
+      <div>
+        <p>Sundar does not only deal with technology as the CEO of Google. He has also said that “It’s the job of the CEO to be chief ethics officer, given the scale at which technology impacts society.” This could not be more true, as Pichai is constantly asked about monitoring hate speech, conspiracy theories, and more. In an interview with the New York Times, he said “What is the difference between freedom of speech on something where you feel you’re being discriminated against by another group, versus hate speech?...Should people be able to say that they don’t believe climate change is real? Or that vaccines don’t work? It’s just a genuinely hard problem.” Seeing as Google is largely responsible for a huge portion of information in American society, Pichai’s role as CEO plays a pivotal role in how the nation functions.</p>
+      </div>
     </div>
   </div>
 </template>
@@ -44,6 +48,10 @@ p, li {
   @apply text-xl text-left pl-24 pr-24 leading-loose;
   font-family: Times New Roman;
   
+}
+
+#caption {
+  @apply text-center object-center pt-10;
 }
 
 
