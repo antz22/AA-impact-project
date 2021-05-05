@@ -28,16 +28,14 @@
 
       <div>
         <h1>Early Childhood</h1>
-        <p>Pichai Sundararajan, better known as Sundar Pichai, was born July 12, 1972 in Madras, Tamil Nadu, India.</p>
-        <p>As a young boy, Sundar was interested in technology. He had a strong memory, which was evident in his talent of being able to memorize all the phone numbers he encountered.</p>
+        <p>Pichai Sundararajan, better known as Sundar Pichai, was born July 12, 1972 in Madras, Tamil Nadu, India. As a young boy, Sundar was interested in technology. He had a strong memory, which was evident in his talent of being able to memorize all the phone numbers he encountered.</p>
       </div>
 
       <hr>
 
       <div>
         <h1>Career Development</h1>
-        <p>He earned a degree in metallurgy (or material science) at IIT Kharagpur in 1993, and got a scholarship to go to Stanford University where he earned a masters degree in materials science in 1995. He then earned an MBA (2002) from UPenn to gain skills in business.</p>
-        <p>In 2004, Sundar became the product management head at Google. He worked on the Google Toolbar, which let users easily access the search engine from web browsers more easily (the search bar at the top of your browser)</p>
+        <p>He earned a degree in metallurgy (or material science) at IIT Kharagpur in 1993, and got a scholarship to go to Stanford University where he earned a masters degree in materials science in 1995. He then earned an MBA (2002) from UPenn to gain skills in business. In 2004, Sundar became the product management head at Google. He worked on the Google Toolbar, which let users easily access the search engine from web browsers more easily (the search bar at the top of your browser)</p>
       </div>
 
       <hr>
@@ -48,10 +46,10 @@
       </div>
 
       <hr>
+      <br>
 
       <div>
-        <br>
-        <p>Now that you know a little bit about Sundar Pichai, go ahead and explore the rest of the site, and please, enjoy :).</p>
+        <p style="margin-top: 20px">Now that you know a little bit about Sundar Pichai, go ahead and explore the rest of the site, and please, enjoy :).</p>
       </div>
 
     </div>
@@ -119,7 +117,7 @@ export default {
 }
 
 #bio > div > p {
-  @apply text-xl text-left pl-24 pr-24 leading-loose;
+  @apply text-xl text-center pl-48 pr-48 leading-loose;
   font-family: Times New Roman;
 }
 

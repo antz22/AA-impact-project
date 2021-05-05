@@ -1,7 +1,7 @@
 <template>
   <div>
     <img alt="Header" class="object-cover w-full cover-img" src="../assets/header.png">
-    <div class="website-name w-4/5">
+    <div class="website-name w-full">
       <h1>Asian American Impact Project</h1>
     </div>
 
