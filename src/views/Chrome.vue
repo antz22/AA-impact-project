@@ -65,8 +65,31 @@ export default {
 
 <style scoped>
 
+@media (min-width: 0px) {
+  p {
+    @apply pl-12 pr-12;
+  }
+  li {
+    @apply pl-2;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  
+}
+
+@media (min-width: 700px) {
+  p {
+    @apply pl-24 pr-24;
+  }
+  li {
+    @apply pl-5;
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+}
+
 p {
-  @apply text-xl text-left pl-24 pr-24 leading-loose;
+  @apply text-xl text-left leading-loose;
   font-family: Times New Roman;
   
 }
@@ -77,8 +100,6 @@ ul > p {
 
 li {
   @apply text-xl text-left pl-5 leading-loose list-item;
-  margin-left: 120px;
-  margin-right: 120px;
   font-family: Times New Roman;
 }
 

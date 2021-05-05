@@ -45,6 +45,18 @@ export default {
 
 <style scoped>
 
+@media (min-width: 0px) {
+  p, li {
+    @apply pl-12 pr-12;
+  }
+}
+
+@media (min-width: 700px) {
+  p, li {
+    @apply pl-24 pr-24;
+  }
+}
+
 p, li {
   @apply text-xl text-left pl-24 pr-24 leading-loose;
   font-family: Times New Roman;

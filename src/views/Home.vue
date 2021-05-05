@@ -77,17 +77,23 @@ export default {
   #pichai > img {
     display: none;
   }
+  #bio > div > p {
+    @apply pl-3 pr-3;
+  }
   
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
   #pichai > div > p {
     @apply p-3;
   }
   #pichai > img {
-    @apply h-64;
     display: block;
+    height: 320px;
     width: 500px;
+  }
+  #bio > div > p {
+    @apply pl-48 pr-48;
   }
 }
 
@@ -96,7 +102,6 @@ export default {
     @apply p-3;
   }
   #pichai > img {
-    /* @apply h-auto; */
     height: 450px;
     width: 700px;
   }
@@ -130,7 +135,7 @@ export default {
 }
 
 #bio > div > p {
-  @apply text-xl text-center sm:pl-48 sm:pr-48 pl-3 pr-3 leading-loose;
+  @apply text-xl text-center leading-loose;
   font-family: Times New Roman;
 }
 
