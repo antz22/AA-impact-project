@@ -1,7 +1,7 @@
 <template>
   <div>
     <img alt="Header" class="object-cover w-full cover-img" src="../assets/header.png">
-    <div class="website-name w-full">
+    <div class="website-name">
       <h1>Asian American Impact Project</h1>
     </div>
 
@@ -70,17 +70,14 @@ export default {
 <style scoped>
 
 /* @media (min-width: 0px) {
-  .routers {
-    visibility: hidden;
-  }
   .website-name {
-    @apply w-4/5;
+    @apply text-base;
   }
 }
 
 @media (min-width: 768px) {
-  .routers {
-    visibility: visible;
+  .website-name {
+    @apply text-lg;
   }
 } */
 
@@ -121,8 +118,9 @@ export default {
 }
 
 .website-name {
-  @apply bg-red-800 text-lg font-bold text-center text-white md:w-auto sm:w-3/5;
+  @apply bg-red-800 text-lg font-bold text-center text-white sm:w-3/5;
   font-size: 25px;
+  width: 385px;
   position: absolute;
   top: 70px;
   left: 340px;

@@ -1,19 +1,19 @@
 <template>
   <div class="home">
-    <Header label1="THE ASIAN" label2="AMERICAN IMPACT"/>
+    <Header label1="THE ASIAN AMERICAN IMPACT"/>
     <div id="q">
       <p>Key question: What is the impact of Asian Americans on American culture and society?</p>
     </div>
     <div class="h-48"> </div>
     <div id="quote">
       <div id="pichai" class="p-4 w-screen flex" data-aos="fade-up" data-aos-duration="1300">
-        <img alt="Sundar Pichai" src="../assets/pichai.jpg">
         <div class="p-5">
           <p>“The progress of one generation becomes the foundational premise of the next, and it takes a new set of people to realize all the possibilities.”</p>
           <div id="citation">
             <p>Quoted from his <a class="underline text-blue-300" href="https://youtu.be/gEDChDOM1_U">commencement speech</a> to the class of 2020</p>
           </div>
         </div>
+        <img alt="Sundar Pichai" src="../assets/pichai.jpg">
       </div>
     </div>
     <div class="h-24"> </div>
@@ -73,12 +73,22 @@ export default {
 @media (min-width: 0px) {
   #pichai > div > p {
     @apply align-text-bottom text-black flex;
-    float:left;
+  }
+  #pichai > img {
+    display: none;
+  }
+  
+}
+
+@media (min-width: 600px) {
+  #pichai > div > p {
+    @apply p-3;
   }
   #pichai > img {
     @apply h-64;
+    display: block;
+    width: 500px;
   }
-  
 }
 
 @media (min-width: 1000px) {
@@ -86,7 +96,9 @@ export default {
     @apply p-3;
   }
   #pichai > img {
-    @apply h-full;
+    /* @apply h-auto; */
+    height: 450px;
+    width: 700px;
   }
   
 }
@@ -96,7 +108,8 @@ export default {
 }
 
 #pichai > img {
-  @apply float-right max-w-2xl p-8 align-middle;
+  /* @apply max-w-2xl w-96 p-8 align-middle; */
+  @apply p-8 align-middle;
 }
 
 #pichai > div {
@@ -117,7 +130,7 @@ export default {
 }
 
 #bio > div > p {
-  @apply text-xl text-center pl-48 pr-48 leading-loose;
+  @apply text-xl text-center sm:pl-48 sm:pr-48 pl-3 pr-3 leading-loose;
   font-family: Times New Roman;
 }
 
@@ -127,7 +140,6 @@ export default {
 }
 
 #bio > div {
-  /* @apply pb-12 border-gray-500 border-2 rounded-md; */
   @apply pb-12;
 }
 
