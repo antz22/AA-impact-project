@@ -46,24 +46,10 @@ export default {
   transform: translate(-50%, -50%); 
   font-size: 80px;
 
-  /* @apply bg-red-800  bg-opacity-80 pt-5 pb-12 pl-20 pr-20;
+  @apply pt-2 pb-16;
   box-sizing: border-box;
-  width: 50rem;
-  border: 8px solid; 
-  border-color: rgba(105, 29, 29, var(--tw-bg-opacity)); 
-  border-radius: 4px; */
-  /* padding: 20px; */
-  /* line-height: 25px; */
-
-  /* @apply bg-red-900  bg-opacity-80 pt-2 pb-16 pl-20 pr-20; */
-  @apply pt-2 pb-16 pl-20 pr-20;
-  box-sizing: border-box;
-  width: 75rem;
-  /* border: 5px solid; 
-  border-color: white; 
-  border-radius: 4px; */
-  /* padding: 20px; */
   line-height: 25px;
+  width: 44rem;
 }
 
 </style>

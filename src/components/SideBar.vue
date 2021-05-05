@@ -4,7 +4,7 @@
       <transition name="slide">
         <div v-if="isPanelOpen"
           class="sidebar-panel" @click="closeSidebarPanel">
-          <span>Web Quest...</span>
+          <span>Sundar Pichai...</span>
           <slot></slot>
         </div>
       </transition>
@@ -85,7 +85,7 @@ export default {
   padding-bottom: 1.0em;
   left: 50%;
   top: 50%;
-  transform: translate(0%, 50%);
+  transform: translate(0%, 30%);
 
 }
 

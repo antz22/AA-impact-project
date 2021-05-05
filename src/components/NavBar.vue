@@ -1,13 +1,13 @@
 <template>
   <div>
     <img alt="Header" class="object-cover w-full cover-img" src="../assets/header.png">
-    <div class="website-name">
+    <div class="website-name w-4/5">
       <h1>Asian American Impact Project</h1>
     </div>
 
 
 
-    <div class="routers md:visible sm:invisible">
+    <div class="routers invisible md:visible">
       <router-link to="/"><span>Home</span></router-link> <span></span>
       <router-link to="/citations"><span>Works Cited</span></router-link>
       <span class="pl-2">Pichai →</span>
@@ -68,6 +68,21 @@ export default {
 </script>
 
 <style scoped>
+
+/* @media (min-width: 0px) {
+  .routers {
+    visibility: hidden;
+  }
+  .website-name {
+    @apply w-4/5;
+  }
+}
+
+@media (min-width: 768px) {
+  .routers {
+    visibility: visible;
+  }
+} */
 
 .cover-img {
   filter: brightness(50%);
@@ -135,7 +150,7 @@ export default {
 ul.sidebar-panel-nav,
 ul.sidebar-panel-nav > div {
   list-style-type: none;
-  padding-top: 2em;
+  padding-top: 1em;
   text-align: left;
 }
 
