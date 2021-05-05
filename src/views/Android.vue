@@ -58,7 +58,7 @@ export default {
 }
 
 p, li {
-  @apply text-xl text-left pl-24 pr-24 leading-loose;
+  @apply text-xl text-left leading-loose;
   font-family: Times New Roman;
   
 }

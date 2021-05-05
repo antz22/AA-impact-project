@@ -33,7 +33,7 @@
               <router-link to="/"><p class="inline-block">Home</p></router-link>
             </li>
             <li>
-              <router-link to="/cited"><p class="inline-block">Works Cited</p></router-link>
+              <router-link to="/citations"><p class="inline-block">Works Cited</p></router-link>
             </li>
           </div>
         </ul>
