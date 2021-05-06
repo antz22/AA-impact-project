@@ -12,6 +12,3 @@ import "aos/dist/aos.css";
 app.AOS = new AOS.init({ disable: "phone" });
 
 app.use(store).use(router).mount("#app");
-
-// createApp(App).use(router).mount('#app')
-
