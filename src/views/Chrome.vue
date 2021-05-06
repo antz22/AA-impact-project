@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <Header label1="Google Chrome"/>
+    <Header label="Google Chrome"/>
     <div class="space-y-10">
       <div id="icon">
         <img src="../assets/chrome.svg">
@@ -13,20 +13,10 @@
       </div>
       <div>
         <p>First, to get an idea of how early in development web browsing was during those years, let’s take a look at competing web browsers at the time. The best way to get on the web was through either Microsoft’s Internet Explorer, a main competitor in the so called “Browser Wars” that consistently boasted “new capabilities” against other browsers, or Mozilla Firefox, a newly released browser that “saw a rapid rise in popularity for a few years.” (<a href="https://smartbear.com/blog/history-of-web-browsers/">McPeak</a>). Web technologies were bleeding edge tech in the early 2000s, and that new improvements were constantly being made.</p>
-        <!-- <ul class="list-disc">
-          <li>Remember that, at the time, the only other available browsers were ones like Firefox and Internet explorer, and the user experience looked like this:</li>
-          <img class="mx-auto" src="../assets/phoenix.png">
-          <p>What web browsers used to look like before Google Chrome. Pretty clunky, right?</p>
-        </ul> -->
       </div>
       <div>
         <p>In 2008, Google Chrome was introduced to the browser market (<a href="https://www.britannica.com/biography/Sundar-Pichai">Shepherd</a>). 
           Within Google, Sundar had been pivotal in the creation and development of the Google Chrome web browser. He had realized that, for Google to keep its competitive edge over other tech companies, they had to build their own web browser.</p>
-        <!-- <ol class="list-decimal">
-          <li>Google Chrome was faster, more secure and more stable, which meant it didn't crash as often.</li>
-          <li>Second, Google Chrome was much more simple to use and less of a hassle to access the web.</li>
-          <li>The product, Google Chrome, was also released to the public through an open source project called Chromium, which pretty much means, Sundar made it possible for other companies to gain access to Chrome’s innovations in web development, rather than keeping all of Google’s work to themselves. </li>
-        </ol> -->
       </div>
       <div class="p1">
         <p>Google Chrome changed web browsing significantly in a couple different ways.</p>

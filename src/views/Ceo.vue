@@ -1,20 +1,20 @@
 <template>
   <div class="home">
-    <Header label1="Tech CEO" />
+    <Header label="Tech CEO" />
     <div class="space-y-10">
       <div>
         <img src="../assets/ceo.svg">
       </div>
-      <div id="p1">
+      <div>
         <p>Though Sundar has contributed greatly to American society through innovations such as Chrome and through his work with Android, the sheer position he holds is very impactful to the Asian American community. Being the CEO of Google, Pichai provides hope for the Asian American community that faces discrimination in leadership positions.</p>
       </div>
-      <div id="p2">
+      <div>
         <p>According to Karthick Ramakrishnan, associate dean of public policy at UC Riverside, and Jennifer Lee, professor of sociology at Columbia University, “[Asians] may be hired in large numbers by tech companies, but Asian Americans are the group least likely to be promoted into managerial and executive ranks. Whites are twice as likely as Asians to hold executive positions.” Since the discrimination Asian Americans face lies in obtaining executive jobs, the “model minority” myth is able to thrive: the generalization is that many Asians get jobs, so they do not face any discrimination, when in reality the prejudice they face is beneath the surface.</p>
       </div>
-      <div id="p3">
+      <div>
         <p>Sundar Pichai’s rise to the top of Google and Alphabet therefore counters the general trend of injustice that plagues his community. He has worked on supporting legislation that promotes the place of immigrants in the US, an example being his support for the DREAMers Act in Congress, a bill which if passed would have allowed legal status to undocumented immigrants brought to the US as youth. Vocalizations of solidarity from Pichai have impact in society due to his position. </p>
       </div>
-      <div id="p4">
+      <div>
         <p>It is a common argument that Asian Americans, especially immigrants, lack the ability to effectively communicate to their counterparts in the workplace, due to accents, cultural barriers, etc. However, many times Asian Americans are not presented with the same opportunities as others to display their abilities. For example, 51% of Asians had led a meeting in the workplace compared to 68% of their white counterparts (<a href="https://www.latimes.com/opinion/op-ed/la-oe-ramakrishnan-lee-asian-american-executives-20171019-story.html">Jennifer Lee and Ramkrishnan</a>). Leading a meeting is an essential part of being considered for higher positions.</p>
       </div>
       <div>

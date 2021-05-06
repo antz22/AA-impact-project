@@ -5,14 +5,13 @@
       <h1>Asian American Impact Project</h1>
     </div>
 
-
-
     <div class="routers invisible md:visible">
       <router-link to="/"><span>Home</span></router-link> <span></span>
       <router-link to="/citations"><span>Works Cited</span></router-link>
       <span class="pl-2">Pichai →</span>
       <span class="pl-12"></span>
     </div>
+
     <div id="sidebar">
       <div id="hamborg">
         <Burger />
@@ -69,18 +68,6 @@ export default {
 
 <style scoped>
 
-/* @media (min-width: 0px) {
-  .website-name {
-    @apply text-base;
-  }
-}
-
-@media (min-width: 768px) {
-  .website-name {
-    @apply text-lg;
-  }
-} */
-
 .cover-img {
   filter: brightness(50%);
   opacity: 0.9;
@@ -98,18 +85,12 @@ export default {
 
 .routers a {
   @apply font-extrabold;
-  /* @apply text-red-800 transition duration-100; */
-  /* font-weight: bold; */
   text-decoration: none;
   padding: 10px;
-  /* border-radius: 4px; */
-  /* background: white; */
 }
 
 .routers a > span:hover {
   text-decoration: underline;
-  /* padding-bottom: 0.01px; */
-  /* border-bottom: 2.3px solid #fff */
 }
 
 .routers a.router-link-exact-active {
@@ -124,7 +105,6 @@ export default {
   position: absolute;
   top: 70px;
   left: 340px;
-  /* left: 24.3%; */
   transform: translate(-80%, -100%);
 
   border-radius: 4px;
@@ -140,9 +120,6 @@ export default {
   top: 70px;
   right: 28px;
   transform: translate(-0%, -100%);
-  /* top: 2rem;
-  right: 2rem;
-  transform: translate(0%, 0%); */
 }
 
 ul.sidebar-panel-nav,

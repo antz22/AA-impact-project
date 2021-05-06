@@ -1,16 +1,7 @@
 <template>
   <div>
     <div class="website-container">
-      <div v-if="label2 === ''">
-        <h1 class="overlay-text">{{ label1 }}</h1>
-      </div>
-      <div v-else-if="label3 === ''">
-        <!-- <h1 class="overlay-text">{{ label1 }} <br><br><br><br> {{ label2 }}</h1> -->
-        <h1 class="overlay-text">{{ label1 }} {{ label2 }}</h1>
-      </div>
-      <div v-else>
-        <h1 class="overlay-text">{{ label1 }} <br><br><br><br> {{ label2 }} <br><br><br><br> {{ label3 }}</h1>
-      </div>
+      <h1 class="overlay-text">{{ label }}</h1>
     </div>
   </div>
 </template>
@@ -19,17 +10,8 @@
 export default {
   name: 'Header',
   props: {
-    label1: String,
-    label2: {
-      default: "",
-      type: String,
-    },
-    label3: {
-      default: "",
-      type: String,
-    }
+    label: String,
   }
-
 }
 </script>
 
@@ -50,7 +32,6 @@ export default {
   @apply w-full mx-auto justify-center;
   box-sizing: border-box;
   line-height: 100px;
-  /* width: 44rem; */
 }
 
 </style>

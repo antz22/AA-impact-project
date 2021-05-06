@@ -1,8 +1,7 @@
 <template>
   <div>
-    <!-- <Header label1="Works" label2="Cited" /> -->
-    <Header label1="Works Cited"/>
-    <div id="cited">
+    <Header label="Works Cited"/>
+    <div>
       <div class="citedd mx-auto container max-w-5xl">
         <h1 class="text-5xl font-extrabold times-text pb-10">Sources</h1>
         <hr>
@@ -61,11 +60,6 @@ export default {
 </script>
 
 <style scoped>
-
-#cited {
-  
-}
-
 .sources {
   line-height: 2.5;
   padding-left: 64px;
@@ -78,11 +72,6 @@ export default {
 
 .sources > p > span {
   @apply italic;
-}
-
-.citedd {
-  /* left: 50%;
-  transform: translateX(50%); */
 }
 
 </style>

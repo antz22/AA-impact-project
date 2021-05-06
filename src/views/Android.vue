@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <Header label1="Android" />
+    <Header label="Android" />
     <div class="space-y-10">
       <div>
         <img src="../assets/android.png">
